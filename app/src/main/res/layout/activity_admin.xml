@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+
+    <EditText
+        android:id="@+id/EditID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="number"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/inputNama2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputHp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="No_hp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputPemesanan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="pemesanan"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputTanggal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="tanggal"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnLihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari" />
+</LinearLayout>
